@@ -2,8 +2,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: "Protifolio",
-  description: "Portfólio da Marianny",
+  title: "Músicas",
+  description: "Músicas",
   charset:'UTF-8',
   author:'Marianny Gonçalves',
   keywords:'HTML, CSS, ',

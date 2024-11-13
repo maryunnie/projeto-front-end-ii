@@ -36,8 +36,9 @@ a {
 }
  
 h1{
-  border: 2px #0a0a0a;
-  
+  border: 2px ;
+  color: rgb(133, 182, 166);
+  text-align: center;
 }
 
 

@@ -6,10 +6,10 @@ export default function Header(){
             <nav>
                 <ul className={styles.lista}>
                     <li>
-                        <Link href='/'>Home</Link>
+                        <Link id="link" href='/'>Home</Link>
                     </li>
                     <li>
-                        <Link href="/sobre">Sobre</Link>
+                        <Link id="link" href="/sobre">Sobre</Link>
                     </li>
                 </ul>
             </nav>
