@@ -1,15 +1,16 @@
 import Link from "next/link"
 import styles from "./Header.module.css"
+import Image from "next/image"
 export default function Header(){
     return(
         <header>
-            <nav>
+            <nav className={styles.nav}>
                 <ul className={styles.lista}>
                     <li>
-                        <Link id="link" href='/'>Home</Link>
+                        <Link className={styles.link} href='/'>Home</Link>
                     </li>
                     <li>
-                        <Link id="link" href="/sobre">Sobre</Link>
+                        <Link className={styles.link} href="/sobre">Sobre</Link>
                     </li>
                 </ul>
             </nav>

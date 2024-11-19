@@ -2,9 +2,19 @@
     list-style-type: none;
     margin:0;
     padding: 0;
-    border: 2px solid rgb(133, 182, 166);
+   
 }
 
-#link{
-    border: 2px solid rgb(133, 182, 166);
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 163, 142);
+
 }
