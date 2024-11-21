@@ -2,7 +2,6 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 .link {
@@ -64,7 +63,7 @@
     /* display: none; */
     max-height: 0;
     overflow: hidden;
-    transition: all 1s ease-in-out;
+    transition: 1s;
   }
 
   .nav.open {
@@ -76,7 +75,7 @@
     padding: 10px;
     max-height: 100vh;
     overflow: visible;
-    transition: all 1s ease-in-out;
+    transition: 1s;
   }
 
   .nav ul {
