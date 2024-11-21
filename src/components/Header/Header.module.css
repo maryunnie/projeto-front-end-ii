@@ -61,16 +61,22 @@
 
 @media (max-width: 600px) {
   .nav {
-    display: none;
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
   }
 
   .nav.open {
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 60px;
     right: 0;
     background-color: rgb(73, 123, 125);
     padding: 10px;
+    max-height: 100vh;
+    overflow: visible;
+    transition: all 1s ease-in-out;
   }
 
   .nav ul {
