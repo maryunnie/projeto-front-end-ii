@@ -39,10 +39,10 @@ h1{
   border: 2px ;
   color: rgb(133, 182, 166);
   text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 @media (prefers-color-scheme: dark) {
   html {
