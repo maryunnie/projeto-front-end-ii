@@ -2,8 +2,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   color: #fff;
 
+=======
+>>>>>>> 5a1039a3ffe4d296f9527b0a54ddb481be374ec8
 }
 
 .link {
@@ -67,16 +70,22 @@
 
 @media (max-width: 600px) {
   .nav {
-    display: none;
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
   }
 
   .nav.open {
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 60px;
     right: 0;
     background-color: rgb(73, 123, 125);
     padding: 10px;
+    max-height: 100vh;
+    overflow: visible;
+    transition: 1s;
   }
 
   .nav ul {
