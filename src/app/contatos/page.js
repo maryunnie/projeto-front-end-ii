@@ -1,3 +1,4 @@
+import styles from './contatos.module.css'
 const Sobre = () => {
     return(
         <main>

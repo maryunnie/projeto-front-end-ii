@@ -1,3 +1,4 @@
+import styles from './sobre.module.css'
 const Sobre = () => {
     return(
         <main>

@@ -17,11 +17,7 @@ const Header = () => {
     <header className={styles.header}>
 
       <div className={styles.logo}>
-<<<<<<< HEAD
         <Image className={styles.img} src="/images/itunes.png" alt="Logo"  width={50} height={80}/>
-=======
-        <Image className={styles.img} src="/images/playlist.png" alt="Logo" width={50} height={150} />
->>>>>>> 5a1039a3ffe4d296f9527b0a54ddb481be374ec8
         <h1 className={styles.h1}>playlist</h1>
       </div>
 
@@ -37,7 +33,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link className={styles.link} href="/contato">Contato</Link>
+              <Link className={styles.link} href="/contatos">Contato</Link>
             </li>
           </ul>
         </nav>
