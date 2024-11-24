@@ -3,5 +3,14 @@
     border-radius: 30px;
     display: block;
     margin: auto;
+    padding: 7px;
 }
+
+.imga{
+    margin-bottom: 50px;
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+    padding: 7px;
+} 
 
