@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.p{
+  /*font-family: "Josefin Sans", sans-serif;*/
+  align-items: center;
+  color: rgba(81, 163, 163, 0.649);
+  margin-left:250px;
+  font-size: 25px;
+}
+
+
+  @media (max-width: 600px) {
+    .lyrics-container {
+      font-size: 40px;
+      padding: 1%;
+      display: flex;
+      flex-direction: column; /* Alinha os parágrafos em uma única coluna */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
