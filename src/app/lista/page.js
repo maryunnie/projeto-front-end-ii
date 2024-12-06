@@ -50,13 +50,13 @@ export default function lista() {
                 </ul>
             </div>
             <div className={styles.div}>
-                <h2>Lista de objetos</h2>
+                <h2 className={styles.h2}>Lista de objetos</h2>
                 {
                     carros.map((carro) => (
                         <div>
-                            <h3>{carro.id} - {carro.modelo}</h3>
-                            <p>{carro.cor}</p>
-                            <p>{carro.ano}</p>
+                            <h3 className={styles.h3}>{carro.id} - {carro.modelo}</h3>
+                            <p className={styles.p}>{carro.cor}</p>
+                            <p  className={styles.p}>{carro.ano}</p>
                         </div>
                     ))
                 }

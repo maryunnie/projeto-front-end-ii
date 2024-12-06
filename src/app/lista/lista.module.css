@@ -6,6 +6,19 @@
 }
 
 .li{
+    color: rgb(83, 146, 149) ;
+    padding: 10px;
+}
+
+.h2{
     color: rgb(131, 219, 222) ;
-    padding: 30px;
+}
+
+.h3{
+    color: rgb(95, 204, 208) ;
+    padding: 10px;
+}
+
+.p{
+    color: rgb(83, 146, 149) ;
 }
