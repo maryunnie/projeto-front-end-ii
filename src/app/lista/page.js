@@ -1,5 +1,7 @@
+import  styles  from './lista.module.css'
+
 export default function lista() {
-    const nomes = [mariany, luiz, maria, beatriz, leticia]
+    const nomes = ['mariany', 'luiz', 'maria', 'beatriz', 'leticia']
     const carros = [
         {
             id: 1,
@@ -39,15 +41,15 @@ export default function lista() {
     ]
     return (
         <main>
-            <div>
+            <div className={styles.div}>
                 <h1>lista</h1>
                 <ul style={{ marginLeft: '50px' }}>
                     {nomes.map((nome, id) => (
-                        <li key={id}>{id + 1} - {nome}</li>
+                        <li  className={styles.li} key={id}>{id + 1} - {nome}</li>
                     ))}
                 </ul>
             </div>
-            <div>
+            <div className={styles.div}>
                 <h2>Lista de objetos</h2>
                 {
                     carros.map((carro) => (

@@ -1,0 +1,11 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.li{
+    color: rgb(131, 219, 222) ;
+    padding: 30px;
+}
