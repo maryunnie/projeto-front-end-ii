@@ -43,6 +43,10 @@ const Header = () => {
             <Link className={styles.link} href="/props">Props</Link>
            </li>
 
+           <li>
+            <Link className={styles.link} href="/filter">Filter</Link>
+           </li>
+
           </ul>
         </nav>
       }
